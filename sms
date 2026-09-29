@@ -250,7 +250,7 @@ def main_menu():
         print("8. Add Result")
         print("9. View Result")
         print("10. Exit")
-        print("================================================")
+
 
         choice = input("Enter your choice: ").strip()
         if choice == "1": add_student()
