@@ -1,16 +1,11 @@
-# ==============================================================
 #                 STUDENT MANAGEMENT SYSTEM
 #                  VITyarthi Project
-# ==============================================================
+
 # Language : Python
 # Level    : First Year
 # Purpose  : Manage student details, attendance and results
 # Storage  : Simple text files
-# ============================================================== 
 
-STUDENT_FILE = "students.txt"
-ATTENDANCE_FILE = "attendance.txt"
-RESULT_FILE = "results.txt"
 
 # ---------------- STUDENT MANAGEMENT ----------------
 
@@ -245,9 +240,7 @@ def view_result():
 
 def main_menu():
     while True:
-        print("\n================================================")
-        print("          STUDENT MANAGEMENT SYSTEM")
-        print("================================================")
+        print("STUDENT MANAGEMENT SYSTEM")
         print("1. Add Student")
         print("2. View All Students")
         print("3. Search Student")
@@ -258,7 +251,7 @@ def main_menu():
         print("8. Add Result")
         print("9. View Result")
         print("10. Exit")
-        print("================================================")
+        
 
         choice = input("Enter your choice: ").strip()
         if choice == "1": add_student()
